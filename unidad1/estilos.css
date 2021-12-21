@@ -14,12 +14,16 @@
 	height: 200px;
 }
 #lateralB2{
-	background-color: #6D8299;
+	/*background-color: #6D8299;*/
 	width: 300px;
 	height: 500px;
 	padding: 20px;
 	padding-top: 180px;
 	color: white;
+
+	background: rgb(51,163,186);
+	background: linear-gradient(180deg, rgba(51,163,186,1) 0%, rgba(0,110,133,1) 100%);
+
 }
 #cuerpo{
 	background-color: #F7F7F7;
@@ -47,4 +51,10 @@ a:visited{
 }
 a:hover{
 	color: red;
+}
+
+.dosColum{
+	column-count: 3;
+	column-gap: 40px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
