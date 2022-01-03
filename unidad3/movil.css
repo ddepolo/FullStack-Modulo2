@@ -1,32 +1,17 @@
-@charset "utf-8";
 /* CSS Document */
-
-body {
-}
 #contenedor {
 	width: 100%;
-	background: #8FA68E;
-	margin-right:auto;
-	margin-left:auto;
-	overflow: hidden;
-
 	display: flex;	
 	Flex-direction: column;
-	
 }
 nav {
 	background: #FC6;
 	float: left;
 	width: auto;
-	padding: 10px;
-
+	border-bottom: solid 1px;
 }
-ul {
-	list-style-type:none;
-
-	display: flex;	
-	Flex-direction: column;
-	Justify-content: space-around;
+li {
+	padding: 6px;
 }
 a {
 	color:black;
@@ -34,10 +19,10 @@ a {
 }
 section {
 	background: #F1F2C0;
-	float: left;
 	width: auto;
 	margin:  0;
 	padding: 10px;
+	border-bottom: solid 1px;
 }
 aside {
 	background: #CCC59E;
